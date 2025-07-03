@@ -120,11 +120,11 @@ const Home = () => {
     <Container>
         <Row>
             <Col md="12">
-             <Carousel className=''>
+             <Carousel className='mt-130'>
       <Carousel.Item className='bg-white'>
         <Row>
 		<div class="col-md-6">
-<iframe width="100%" height="360" src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0" allowfullscreen class="video_tag my-5" ></iframe>
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/c4A380smBdI?si=ugvCaKd9TEocT-Qt" frameborder="0" allowfullscreen class="video_tag my-5" ></iframe>
 </div>
             <Col lg="6">
                 <Form.Group className="mainColor mt-4 mb-2" controlId="exampleForm.ControlTextarea1">
@@ -156,7 +156,7 @@ const Home = () => {
             </Col>
         </Row>
       <Row>
-        <h5 className='fw-bold'>선거공약/ 후보자정보에 대한 반응</h5>
+        <h5 className='fw-bold mt-3 mb-2'>선거공약/ 후보자정보에 대한 반응</h5>
         <div className='navBg p-3 text-white fw-bold'>그래프를 클릭하시면 보실수 있습니다</div>
       </Row>
  <Row>
@@ -174,7 +174,7 @@ const Home = () => {
       </Row>
 
       <Row>
-        <h5 className='fw-bold'>일주일간 긍부정 변화그래프</h5>
+        <h5 className='fw-bold mt-3 mb-2'>일주일간 긍부정 변화그래프</h5>
         <div className='navBg p-3 text-white fw-bold'>그래프를 클릭하시면 보실수 있습니다</div>
       </Row>
     <Row>
@@ -184,7 +184,7 @@ const Home = () => {
     </Row>
 
       <Row>
-        <h5 className='fw-bold'>소셜미디어 댓글수</h5>
+        <h5 className='fw-bold mt-3 '>소셜미디어 댓글수</h5>
         <div className='navBg p-3 text-white fw-bold'>그래프를 클릭하시면 보실수 있습니다</div>
       </Row>
 
@@ -195,7 +195,7 @@ const Home = () => {
 </Row>
 
       <Row>
-        <h5 className='fw-bold'>인터넷 검색수</h5>
+        <h5 className='fw-bold mt-3'>인터넷 검색수</h5>
         <div className='navBg p-3 text-white fw-bold'>그래프를 클릭하시면 보실수 있습니다</div>
       </Row>
 

@@ -6,11 +6,12 @@ import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 const TopNav  = ( ) => {
     return(
 <>
+<div className="fixed-top bg-white">
 <Header/>
  <Navbar collapseOnSelect expand="lg" className="navBg">
       <Container>
         <Navbar.Brand href="#home"></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className="custom-toggler"/>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="" className="text-white fw-bold">후보자상황판</Nav.Link>
@@ -38,6 +39,7 @@ const TopNav  = ( ) => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </div>
 <Outlet />
 </>
     );
