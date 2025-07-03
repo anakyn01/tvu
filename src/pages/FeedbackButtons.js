@@ -17,6 +17,7 @@ const FeedbackButtons = () => {
           variant={selected === 'sad' ? 'danger' : 'outline-danger'} 
           onClick={() => handleSelect('sad')}
           title="아쉬워요"
+          className='fs-13'
         >
           <FaRegSadCry size={24} /> 아쉬워요
         </Button>
@@ -24,6 +25,7 @@ const FeedbackButtons = () => {
           variant={selected === 'neutral' ? 'secondary' : 'outline-secondary'} 
           onClick={() => handleSelect('neutral')}
           title="그저 그래요"
+          className='fs-13'
         >
           <FaRegMeh size={24} /> 그저 그래요
         </Button>
@@ -31,12 +33,13 @@ const FeedbackButtons = () => {
           variant={selected === 'happy' ? 'success' : 'outline-success'} 
           onClick={() => handleSelect('happy')}
           title="좋아요"
+          className='fs-13'
         >
           <FaRegSmile size={24} /> 좋아요
         </Button>
       </ButtonGroup>
       {selected && (
-        <p className="mt-2">선택하신 감정: <b>{selected === 'sad' ? '아쉬워요' : selected === 'neutral' ? '그저 그래요' : '좋아요'}</b></p>
+        <p className="mt-2">선택하신 감정: <b className='fs-10'>{selected === 'sad' ? '아쉬워요' : selected === 'neutral' ? '그저 그래요' : '좋아요'}</b></p>
       )}
     </div>
   );

@@ -201,7 +201,7 @@ const Home = () => {
 
       <Row>
    <Col>
-    <Line data={socialMediaUsageData} />
+    <Line data={socialMediaUsageData} className='fs-12'/>
     <FeedbackButtons />
   </Col>
 </Row>
@@ -222,7 +222,7 @@ const Home = () => {
 <Row>
   <Col md={12}>
   <div className='my-5'>
-  <Button className='form-control navBg'>더보기</Button>
+  <Button className='form-control navBg py-3'>더보기</Button>
   </div>
   </Col>
 </Row>

@@ -26,7 +26,7 @@ const Header = () => {
           <Col md={3}>
             <div className="py-2">
               <a href="#" className="btn">
-                선거구 후보검색
+                <h5 className="fw-bold">선거구 후보검색</h5>
               </a>
             </div>
           </Col>
@@ -58,7 +58,7 @@ const Header = () => {
                   ))
                 )}
               </select>
-              <label htmlFor="regions" className="form-label">
+              <label htmlFor="regions" className="form-label mt-2 text-secondary fw-bold">
                 급상승후보 10인:
               </label>
             </div>
